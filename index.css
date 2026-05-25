@@ -1,0 +1,141 @@
+body {
+  background-color: rgb(143, 162, 214);
+   margin: 0;
+   padding: 0;
+   min-height: 100vh;
+}
+h2 {
+  color: rgb(27, 28, 136)
+   display: flex;
+  justify-content: center; 
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  color: rgb(0, 10, 70)
+   display: flex;
+  justify-content: center; 
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+p {
+  color: rgb(0, 21, 114);
+  margin-bottom: 20px;
+  font-size: 25px;
+  margin-right: 40px;
+  margin-left: 40px;
+  text-align: center;
+
+}
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    justify-content: center; 
+    align-items: center;    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 40%
+}
+
+a {
+  color:rgb(0, 7, 73)"
+  width: 200px; 
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+
+}
+
+   ul { /* bar styles */
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #294fb9;
+      overflow: hidden;
+      position: fixed; /* this will make the navbar stick to the top of the page */
+      top: 0;
+      width: 100%;
+    }
+    li {
+      float: left;
+    }
+    li a { /* Styling for buttons */
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    li a:hover { /* on hover change color */
+      background-color: #11085e;
+    }
+
+    div {
+  width: 1300px;
+  margin:auto;
+  background-color: rgb(154, 184, 228); /* Cor de fundo */
+  padding: 2px; 
+}
+
+/* Configuração geral da tabela */
+table {
+  width: 50%;
+  border-collapse: collapse; /* Une as bordas para um visual limpo */
+  font-family: sans-serif;
+  margin: auto;
+  font-size: 16px;
+  text-align: center;
+  table-layout: auto;
+}
+
+/* Estilização do Cabeçalho (th) */
+th {
+  background-color: #4e76e6; /* Cor escura profissional */
+  color: rgb(207, 150, 204);
+  padding: 12px 15px;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+
+}
+
+/* Estilização das Células (td) */
+td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #010a31;
+}
+
+/* Efeito Zebra (cores alternadas nas linhas) */
+tr:nth-child(even) {
+  background-color: #2a54af;
+}
+
+/* Efeito de destaque ao passar o mouse (Interatividade) */
+tr:hover {
+  background-color: #1b19c0;
+  transition: 0.2s;
+}
+
+/* Bordas externas suaves (opcional) */
+table {
+  border-radius: 5px 5px 0 0;
+  overflow: hidden; /* Garante que o arredondado funcione no topo */
+}
+
+href {
+  color: rgb(0, 21, 114);
+  margin-bottom: 50px;
+  font-size: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+
+}
